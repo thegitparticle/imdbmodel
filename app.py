@@ -27,7 +27,7 @@ def main():
 		pred = learn.predict(written_text)	
 		st.success(pred)
 	footer = """
-	<div style="position:fixed; text-align:center; bottom:0px; right:0px; left:0px; background-color:grey" markdown="1">
+	<div style="position:fixed; text-align:center; bottom:0px; right:0px; left:0px; background-color:black" markdown="1">
 		<h4>Built with Streamlit using <a href= "https://www.fast.ai">fast.ai</a></h4>
 		<p><a href="https://github.com/apzl/mask-or-not">Github</a> | &copyapsal</p>
 	</div>
