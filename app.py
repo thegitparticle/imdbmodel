@@ -8,7 +8,7 @@ path = Path(__file__).parent
 
 @st.cache(allow_output_mutation = True)
 def learner(path):						#load the learner from 'export.pkl'
-	learn = load_learner(path)	
+	learn = Learner.load(path)	
 	return learn
 
 
