@@ -2,6 +2,7 @@ import streamlit as st
 import PIL
 from fastai import *
 from fastai.text import *
+from pathlib import Path
 
 path = Path(__file__).parent
 
